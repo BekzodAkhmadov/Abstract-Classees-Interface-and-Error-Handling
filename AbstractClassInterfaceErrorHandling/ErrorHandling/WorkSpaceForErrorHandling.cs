@@ -4,16 +4,17 @@
     {
         static void Main(string[] args)
         {
-            try
-            {
-                BekzodSaysDivide();
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("--Bekzod Divide StackTrace--");
-                Console.WriteLine(e.StackTrace);
-                throw;
-            }
+            //try
+            //{
+            //    BekzodSaysDivide();
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine("--Bekzod Divide StackTrace--");
+            //    Console.WriteLine(e.StackTrace);
+            //    throw;
+            //}
+
             
         }
         public static decimal DivideHandled(decimal arg1, decimal? arg2)
